@@ -1,0 +1,18 @@
+{
+  "name": "anime-crud",
+  "version": "1.0.0",
+  "description": "API CRUD de Animes com Node.js e Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",      
+    "dev": "nodemon src/server.js"       
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^8.3.2",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
